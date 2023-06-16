@@ -29,6 +29,8 @@ search_button.submit()
 time.sleep(3000000)
 driver.quit()
 
+# zmiana
+# 2ga zmiana
 
 
 
