@@ -1,3 +1,15 @@
+# git clone [link]
+# git add .
+# git commit -m "poczatek"
+# git push
+# git pull
+
+
+
+
+
+
+
 from selenium import webdriver
 #from selenium.webdriver.common.keys import Keys
 import time
@@ -14,5 +26,9 @@ search_field.send_keys('Czy jutro jest niedziela handlowa?')
 #search_field.send_keys(Keys.ENTER)
 search_button = driver.find_element('name', 'btnK')
 search_button.submit()
-time.sleep(3)
+time.sleep(3000000)
 driver.quit()
+
+
+
+
