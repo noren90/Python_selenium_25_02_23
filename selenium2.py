@@ -33,6 +33,6 @@ if __name__ == '__main__':
     if not login_button.get_attribute('disabled'):
             login_button.click()
 
-    time.sleep(1000)
+    time.sleep(10)
     driver.get_screenshot_as_file('screenshot.png')
     driver.quit()
